@@ -345,3 +345,10 @@ async function init() {
 }
 
 init();
+
+// オフライン対応（Service Worker）の登録
+if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch((e) => console.warn('Service Worker 登録失敗', e));
+  });
+}
