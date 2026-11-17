@@ -26,7 +26,8 @@
 | `transcriptUrl` |  | スクリプト（書き起こし）のページのURL。なければ `null`（精聴のステップ2では代わりに `pageUrl` を開きます） |
 | `durationMin` |  | だいたいの長さ（分） |
 | `focusHint` |  | その日の注目ポイント（日本語で一言） |
-| `verified` |  | URLが実在することを確認済みなら `true` |
+| `verified` |  | ページ（とスクリプト）のURLが実在することを確認済みなら `true` |
+| `audioVerified` |  | 音声ファイルそのものにアクセスして確認済みなら `true`。`false` は「公式ページに書かれている音声URLだが、ファイル自体は未確認」 |
 | `embedUrl` |  | （任意）TEDなど、公式の埋め込みプレーヤーのURL。`audioUrl` がないときに画面に埋め込みます。倍速や区間リピートは使えません |
 
 ### 書き方の例
@@ -49,8 +50,11 @@
 
 ### audioUrl（mp3のURL）の見つけ方
 
-- **BBC 6 Minute English**：エピソードページの「Download Audio」ボタンを長押し →「リンクをコピー」
+- **BBC 6 Minute English**：エピソードページの「Download Audio」ボタンを長押し →「リンクをコピー」（`https://downloads.bbc.co.uk/…mp3`）
+- **HBR（IdeaCast / Women at Work）**：エピソードページ内の `https://audio.hbr.org/…mp3`
+- **NPR**：エピソードページの再生ボタンが使っている `…/default.mp3` のURL
 - **ポッドキャスト全般**：番組のRSSフィード（Apple Podcasts のページなどに書かれている）を開き、各エピソードの `<enclosure url="…mp3">` の部分
+- ※ `http://` で始まる音声URLは、GitHub Pages（https）では再生できません。`https://` のものを使ってください。
 - 音声URLが見つからない・再生できないときは `null` のままでOK。アプリには「公式ページで聞く」ボタンが出ます
 
 ### 注意（著作権）

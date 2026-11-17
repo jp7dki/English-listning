@@ -1,6 +1,5 @@
 {
   "totalDays": 30,
-
   "menu": [
     {
       "id": "intensive",
@@ -32,7 +31,6 @@
       "desc": "当日の素材を流し聞き → 好きなポッドキャストを1.0倍速で。止めずに聞き流す"
     }
   ],
-
   "intensiveSteps": [
     {
       "title": "スクリプトなしで聞く",
@@ -51,7 +49,6 @@
       "detail": "スクリプトを閉じて、もう一度聞く。最初より聞こえる箇所が増えていればOK。"
     }
   ],
-
   "weeks": [
     {
       "week": 1,
@@ -66,10 +63,22 @@
         ],
         "countersTitle": "聞こえなかった原因（タップで+1）",
         "counters": [
-          { "id": "linking", "label": "つながる音" },
-          { "id": "elision", "label": "消える音" },
-          { "id": "weak", "label": "弱く発音される語" },
-          { "id": "vocab", "label": "知らない単語" }
+          {
+            "id": "linking",
+            "label": "つながる音"
+          },
+          {
+            "id": "elision",
+            "label": "消える音"
+          },
+          {
+            "id": "weak",
+            "label": "弱く発音される語"
+          },
+          {
+            "id": "vocab",
+            "label": "知らない単語"
+          }
         ]
       }
     },
@@ -87,9 +96,18 @@
         "showQuestionTypes": true,
         "countersTitle": "拾った質問（タップで+1）",
         "counters": [
-          { "id": "direct", "label": "直接の質問" },
-          { "id": "indirect", "label": "遠回しな質問" },
-          { "id": "confirm", "label": "確認の質問" }
+          {
+            "id": "direct",
+            "label": "直接の質問"
+          },
+          {
+            "id": "indirect",
+            "label": "遠回しな質問"
+          },
+          {
+            "id": "confirm",
+            "label": "確認の質問"
+          }
         ]
       }
     },
@@ -107,8 +125,14 @@
         "showQuestionTypes": true,
         "countersTitle": "言い換え（タップで+1）",
         "counters": [
-          { "id": "paraphrased", "label": "言い換えできた" },
-          { "id": "missed", "label": "分からなかった" }
+          {
+            "id": "paraphrased",
+            "label": "言い換えできた"
+          },
+          {
+            "id": "missed",
+            "label": "分からなかった"
+          }
         ]
       }
     },
@@ -126,40 +150,68 @@
         "showQuestionTypes": true,
         "countersTitle": "返答（タップで+1）",
         "counters": [
-          { "id": "answered", "label": "10秒以内に組み立てた" },
-          { "id": "stuck", "label": "詰まった" }
+          {
+            "id": "answered",
+            "label": "10秒以内に組み立てた"
+          },
+          {
+            "id": "stuck",
+            "label": "詰まった"
+          }
         ]
       }
     }
   ],
-
   "questionTypes": [
     {
       "id": "direct",
       "label": "直接の質問",
-      "examples": ["What's your take on…?", "How would you approach…?"]
+      "examples": [
+        "What's your take on…?",
+        "How would you approach…?"
+      ]
     },
     {
       "id": "indirect",
       "label": "遠回しな質問",
-      "examples": ["I was wondering if…", "Could you walk me through…?", "Would it make sense to…?"]
+      "examples": [
+        "I was wondering if…",
+        "Could you walk me through…?",
+        "Would it make sense to…?"
+      ]
     },
     {
       "id": "confirm",
       "label": "確認の質問",
-      "examples": ["…, right?", "So you're saying…?"]
+      "examples": [
+        "…, right?",
+        "So you're saying…?"
+      ]
     }
   ],
-
   "recoveryPhrases": [
-    { "en": "Just to make sure I understand — are you asking about X or Y?", "ja": "確認させてください。XとYのどちらについての質問ですか？" },
-    { "en": "Could you rephrase that a bit? I want to get it right.", "ja": "少し言い換えてもらえますか？正しく理解したいので。" },
-    { "en": "So what you're asking is… — is that correct?", "ja": "つまり…ということですね？" },
-    { "en": "Let me check if I've got this right.", "ja": "私の理解が合っているか確認させてください。" }
+    {
+      "en": "Just to make sure I understand — are you asking about X or Y?",
+      "ja": "確認させてください。XとYのどちらについての質問ですか？"
+    },
+    {
+      "en": "Could you rephrase that a bit? I want to get it right.",
+      "ja": "少し言い換えてもらえますか？正しく理解したいので。"
+    },
+    {
+      "en": "So what you're asking is… — is that correct?",
+      "ja": "つまり…ということですね？"
+    },
+    {
+      "en": "Let me check if I've got this right.",
+      "ja": "私の理解が合っているか確認させてください。"
+    }
   ],
-
   "measurement": {
-    "days": [1, 30],
+    "days": [
+      1,
+      30
+    ],
     "intro": "通常メニューの前に、今の実力を記録します（10分ほど）。",
     "items": [
       {
@@ -182,8 +234,34 @@
     "meetingHowto": "③ 直近の会議で「聞き返した回数」「質問を取り違えた回数」を記録（記録タブからいつでも追加できます）。",
     "targetNote": "目安：①が+15〜20ポイント、③の回数が減っていること",
     "materials": {
-      "1": [],
-      "30": []
+      "1": [
+        {
+          "label": "① 書き取り用（冒頭あいさつの直後から30秒）：What should you eat for a better night’s sleep?",
+          "pageUrl": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261022",
+          "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261022_6_minute_english_what_should_you_eat_for_a_better_nights_sleep_download.mp3",
+          "verified": true
+        },
+        {
+          "label": "② 要点用（任意の2分を1回だけ）：Why do we itch?",
+          "pageUrl": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260924",
+          "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/260924_6_minute_english_why_do_we_itch_download.mp3",
+          "verified": true
+        }
+      ],
+      "30": [
+        {
+          "label": "① 書き取り用（冒頭あいさつの直後から30秒）：Sharing the road with driverless cars",
+          "pageUrl": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260820",
+          "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/260820_6_minute_english_sharing_the_road_with_driverless_cars_download.mp3",
+          "verified": true
+        },
+        {
+          "label": "② 要点用（任意の2分を1回だけ）：Should we cycle more?",
+          "pageUrl": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260709",
+          "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/260709_6_minute_english_should_we_cycle_more_download.mp3",
+          "verified": true
+        }
+      ]
     }
   }
 }

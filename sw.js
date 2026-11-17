@@ -7,7 +7,7 @@
 // （上げないと、スマホに古いファイルが残ることがあります）
 // =============================================================
 
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = 'elp-' + VERSION;
 
 const APP_FILES = [
