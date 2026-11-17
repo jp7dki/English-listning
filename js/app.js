@@ -136,6 +136,9 @@ function renderToday() {
     html += `<div class="banner ok">🏆 30日分すべて完了しました！おつかれさまでした。<br>記録タブで Day 1 との比較を見てみましょう。</div>`;
   }
 
+  // 測定の日（Day 1 / Day 30）は最初に測定カード
+  html += measureCardHtml(day);
+
   // 今日の精聴素材
   if (mat) {
     html += `

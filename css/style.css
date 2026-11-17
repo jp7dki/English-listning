@@ -280,3 +280,96 @@ button { font: inherit; color: inherit; }
 .embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .step-counters { margin-top: 6px; }
 .step-counters .counter { min-height: 48px; background: var(--surface); }
+
+/* ---------- 立て直しボタン（タブバー内）とシート ---------- */
+.tabbar .sos {
+  flex: 1; border: 0; background: none;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  font-size: 11px; color: var(--warn); font-weight: 700; cursor: pointer; padding: 0;
+}
+.tabbar .sos .ti { font-size: 20px; line-height: 1.2; }
+.sheet { position: fixed; inset: 0; z-index: 40; }
+.sheet-bg { position: absolute; inset: 0; background: rgba(0, 0, 0, .45); }
+.sheet-panel {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  max-height: 85vh; overflow-y: auto;
+  background: var(--bg);
+  border-radius: 20px 20px 0 0;
+  padding: 18px 16px calc(16px + var(--safe-b));
+}
+.sheet-panel > * { max-width: 608px; margin-left: auto; margin-right: auto; }
+
+/* ---------- 共通（フレーズ・記録・設定） ---------- */
+.page-title { font-size: 22px; margin: 4px 0 8px; }
+.sec { font-size: 16px; margin: 20px 0 8px; }
+.sub { font-size: 14px; color: var(--muted); margin: 10px 0 6px; }
+.center { text-align: center; }
+.phrases { list-style: none; padding: 0; margin: 0; }
+.phrase {
+  display: flex; align-items: center; gap: 10px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+  padding: 10px 10px 10px 14px; margin-bottom: 8px;
+}
+.ph-text { flex: 1; min-width: 0; }
+.ph-en { font-size: 17px; font-weight: 600; line-height: 1.4; }
+.ph-ja { font-size: 13px; color: var(--muted); }
+.wk summary { cursor: pointer; padding: 2px 0; }
+.wk-drill { font-size: 14px; margin-top: 6px; }
+.wk-drill ol { padding-left: 1.3em; margin: 4px 0 0; }
+
+.wide { display: block; width: 100%; text-align: center; margin-top: 8px; min-height: 48px; }
+.filebtn { display: flex; align-items: center; justify-content: center; }
+.danger { color: #c62828; border-color: #e3a3a3; }
+
+/* 入力欄 */
+.field { display: block; margin: 10px 0; }
+.field > span { display: block; font-weight: 700; font-size: 15px; }
+.field small { display: block; color: var(--muted); font-size: 13px; margin-bottom: 4px; }
+input[type="number"], input[type="date"] {
+  width: 100%; min-height: 46px;
+  font-size: 18px; padding: 8px 12px;
+  border-radius: 10px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--text);
+}
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 13px; color: var(--muted); }
+.two label { display: block; }
+.measure summary { cursor: pointer; padding: 4px 0; }
+.measure { border-color: var(--accent); }
+.measure-edit summary { cursor: pointer; color: var(--accent); font-weight: 600; padding: 8px 0 4px; }
+.seg { display: flex; gap: 8px; margin: 6px 0; }
+.mt { margin-top: 12px; }
+
+/* 記録 */
+.stat-row { display: flex; gap: 10px; }
+.stat-row > div { flex: 1; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px; text-align: center; }
+.stat-row b { display: block; font-size: 28px; line-height: 1.1; }
+.stat-row span { font-size: 12px; color: var(--muted); }
+.daygrid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.dcell {
+  aspect-ratio: 1; border-radius: 10px; border: 1px solid var(--line); background: var(--surface);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.1;
+}
+.dcell .dn { font-size: 11px; color: var(--muted); }
+.dcell .dm { font-size: 18px; font-weight: 800; min-height: 20px; }
+.dcell .dots { font-size: 12px; color: var(--accent); min-height: 13px; }
+.dcell.done { background: var(--ok-soft); border-color: var(--ok); color: var(--ok); }
+.cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+.cal-h { text-align: center; font-size: 11px; color: var(--muted); }
+.cal-c {
+  min-height: 44px; border-radius: 8px; background: var(--surface); border: 1px solid var(--line);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.1;
+}
+.cal-c .cd { font-size: 12px; }
+.cal-c .cday { font-size: 10px; font-weight: 800; }
+.cal-c.done { background: var(--ok-soft); border-color: var(--ok); color: var(--ok); }
+.cal-c.today { outline: 2px solid var(--accent); outline-offset: -2px; }
+.cal-c.out { opacity: .35; }
+.cmp { width: 100%; border-collapse: collapse; font-size: 14px; }
+.cmp th, .cmp td { padding: 6px 4px; border-bottom: 1px solid var(--line); text-align: center; }
+.cmp tbody th { text-align: left; font-weight: 600; font-size: 13px; }
+.cmp .diff { font-weight: 800; color: var(--accent); }
+.bar { display: flex; align-items: center; gap: 8px; margin: 6px 0; font-size: 13px; }
+.bl { width: 8.5em; flex: none; }
+.bt { flex: 1; height: 12px; background: var(--surface-2); border-radius: 6px; overflow: hidden; }
+.bf { display: block; height: 100%; background: var(--accent); border-radius: 6px; }
+.bv { width: 2.5em; text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; }
