@@ -1,0 +1,38 @@
+[
+  {
+    "day": 1,
+    "week": 1,
+    "title": "（ダミー）6 Minute English エピソード1",
+    "source": "BBC Learning English – 6 Minute English",
+    "pageUrl": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
+    "audioUrl": null,
+    "transcriptUrl": null,
+    "durationMin": 6,
+    "focusHint": "単語と単語がつながる音に注目",
+    "verified": false
+  },
+  {
+    "day": 2,
+    "week": 1,
+    "title": "（ダミー）6 Minute English エピソード2",
+    "source": "BBC Learning English – 6 Minute English",
+    "pageUrl": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
+    "audioUrl": null,
+    "transcriptUrl": null,
+    "durationMin": 6,
+    "focusHint": "語尾の t / d が消える音に注目",
+    "verified": false
+  },
+  {
+    "day": 3,
+    "week": 1,
+    "title": "（ダミー）6 Minute English エピソード3",
+    "source": "BBC Learning English – 6 Minute English",
+    "pageUrl": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
+    "audioUrl": null,
+    "transcriptUrl": null,
+    "durationMin": 6,
+    "focusHint": "to / of / and が弱く短くなる音に注目",
+    "verified": false
+  }
+]

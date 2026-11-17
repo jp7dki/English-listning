@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>英語リスニング30日</title>
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ===== 画面（タブで切り替え） ===== -->
+  <main id="main">
+    <!-- 今日の学習 -->
+    <section id="view-today" class="view" data-view="today">
+      <p class="loading">読み込み中…</p>
+    </section>
+
+    <!-- フレーズ集 -->
+    <section id="view-phrases" class="view" data-view="phrases" hidden></section>
+
+    <!-- 記録 -->
+    <section id="view-log" class="view" data-view="log" hidden></section>
+
+    <!-- 設定 -->
+    <section id="view-settings" class="view" data-view="settings" hidden></section>
+  </main>
+
+  <!-- ===== 画面下のタブ ===== -->
+  <nav class="tabbar" aria-label="画面切り替え">
+    <a href="#today" data-tab="today"><span class="ti">▶</span>今日</a>
+    <a href="#phrases" data-tab="phrases"><span class="ti">💬</span>フレーズ</a>
+    <a href="#log" data-tab="log"><span class="ti">📅</span>記録</a>
+    <a href="#settings" data-tab="settings"><span class="ti">⚙</span>設定</a>
+  </nav>
+
+  <!-- 保存できなかったとき等の短いお知らせ -->
+  <div id="toast" class="toast" role="status" hidden></div>
+
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
