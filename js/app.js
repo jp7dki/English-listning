@@ -201,7 +201,6 @@ function menuExtra(id, day, w) {
 // 質問キャッチ練習（週ごとの内容とタップ記録）
 function drillHtml(day, w) {
   const drill = Plan.week(w).drill;
-  const t = Store.get().tallies[day] || {};
   let html = `<details class="drill"><summary>やり方：${esc(drill.title)}</summary><ol>`;
   for (const s of drill.steps) html += `<li>${esc(s)}</li>`;
   html += `</ol>`;
@@ -212,15 +211,22 @@ function drillHtml(day, w) {
     }
     html += `</div>`;
   }
-  if (drill.counters) {
-    html += `<div class="counters-title">${esc(drill.countersTitle)}</div><div class="counters">`;
-    for (const c of drill.counters) {
-      html += `<button class="counter" data-action="tally" data-day="${day}" data-id="${c.id}">
-        ${esc(c.label)}<span class="count">${t[c.id] || 0}</span></button>`;
-    }
-    html += `</div><button class="btn-link" data-action="tally-undo" data-day="${day}">1つ取り消す</button>`;
-  }
+  html += countersHtml(day, w);
   html += `</details>`;
+  return html;
+}
+
+// タップ記録のボタン（練習カードと精聴ステップ2で共通）
+function countersHtml(day, w) {
+  const drill = Plan.week(w).drill;
+  if (!drill.counters) return '';
+  const t = Store.get().tallies[day] || {};
+  let html = `<div class="counters-title">${esc(drill.countersTitle)}</div><div class="counters">`;
+  for (const c of drill.counters) {
+    html += `<button class="counter" data-action="tally" data-day="${day}" data-id="${c.id}">
+      ${esc(c.label)}<span class="count">${t[c.id] || 0}</span></button>`;
+  }
+  html += `</div><button class="btn-link" data-action="tally-undo" data-day="${day}">1つ取り消す</button>`;
   return html;
 }
 
@@ -232,8 +238,12 @@ function addTally(day, id) {
   App.lastTally = { day, id };
   persist();
   // 開いている「やり方」を閉じないよう、数字だけ書き換える
-  const btn = document.querySelector(`.counter[data-day="${day}"][data-id="${id}"] .count`);
-  if (btn) btn.textContent = s.tallies[day][id];
+  setCountText(day, id, s.tallies[day][id]);
+}
+
+function setCountText(day, id, n) {
+  document.querySelectorAll(`.counter[data-day="${day}"][data-id="${id}"] .count`)
+    .forEach((x) => { x.textContent = n; });
 }
 
 function undoTally(day) {
@@ -245,8 +255,7 @@ function undoTally(day) {
   }
   s.tallies[day][last.id]--;
   persist();
-  const btn = document.querySelector(`.counter[data-day="${day}"][data-id="${last.id}"] .count`);
-  if (btn) btn.textContent = s.tallies[day][last.id];
+  setCountText(day, last.id, s.tallies[day][last.id]);
   App.lastTally = null;
 }
 
@@ -255,7 +264,7 @@ function undoTally(day) {
 function startMaterial(day, mode) {
   const mat = Plan.material(day);
   if (!mat) return;
-  if (window.Player) {
+  if ((typeof Player !== 'undefined')) {
     Player.open(mat, { mode, day });
   } else if (mat.pageUrl) {
     window.open(mat.pageUrl, '_blank', 'noopener');
@@ -272,8 +281,9 @@ function showView(name) {
     a.classList.toggle('active', a.dataset.tab === name);
     if (a.dataset.tab === name) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
   });
+  if ((typeof Player !== 'undefined')) Player.onViewChange(name);
   if (name === 'today') renderToday();
-  else if (window.Screens && Screens[name]) Screens[name](document.getElementById('view-' + name));
+  else if ((typeof Screens !== 'undefined') && Screens[name]) Screens[name](document.getElementById('view-' + name));
   window.scrollTo(0, 0);
 }
 
@@ -295,7 +305,7 @@ document.addEventListener('click', (e) => {
     case 'tally-undo': undoTally(day); break;
     default:
       // 他の画面のボタン（screens.js などで処理）
-      if (window.Screens && Screens.onAction) Screens.onAction(t, e);
+      if ((typeof Screens !== 'undefined') && Screens.onAction) Screens.onAction(t, e);
   }
 });
 
