@@ -1,0 +1,267 @@
+{
+  "totalDays": 30,
+  "menu": [
+    {
+      "id": "intensive",
+      "label": "行き①：精聴",
+      "minutes": 35,
+      "required": true,
+      "desc": "1〜2分の区間をくり返し、細かく聞き取る"
+    },
+    {
+      "id": "drill",
+      "label": "行き②：質問キャッチ練習",
+      "minutes": 15,
+      "required": false,
+      "desc": "その週の練習（下の「やり方」を開く）"
+    },
+    {
+      "id": "review",
+      "label": "行き③：復習",
+      "minutes": 10,
+      "required": false,
+      "desc": "前日の精聴素材を聞き直す"
+    },
+    {
+      "id": "extensive",
+      "label": "帰り：多聴",
+      "minutes": 60,
+      "required": false,
+      "optional": true,
+      "desc": "当日の素材を流し聞き → 好きなポッドキャストを1.0倍速で。止めずに聞き流す"
+    }
+  ],
+  "intensiveSteps": [
+    {
+      "title": "スクリプトなしで聞く",
+      "detail": "A-B区間（1〜2分）を決めて、まずは何も見ずに聞く。分からなくても止めずに最後まで。"
+    },
+    {
+      "title": "スクリプトで確認",
+      "detail": "スクリプトを開き、聞こえなかった箇所に印をつける。Week 1は原因をタップで記録。"
+    },
+    {
+      "title": "口パクで重ねて読む",
+      "detail": "スクリプトを見ながら、音声に合わせて口だけ動かす（サイレント・シャドーイング）。2〜3回。"
+    },
+    {
+      "title": "もう一度聞く",
+      "detail": "スクリプトを閉じて、もう一度聞く。最初より聞こえる箇所が増えていればOK。"
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "theme": "音の変化に慣れる",
+      "materials": "BBC Learning English「6 Minute English」",
+      "drill": {
+        "title": "聞こえなかった原因を分類する",
+        "steps": [
+          "精聴で印をつけた箇所を1つずつ見直す",
+          "なぜ聞こえなかったのかを下のボタンでタップして記録する",
+          "多かった原因を意識して、もう一度その箇所を聞く"
+        ],
+        "countersTitle": "聞こえなかった原因（タップで+1）",
+        "counters": [
+          {
+            "id": "linking",
+            "label": "つながる音"
+          },
+          {
+            "id": "elision",
+            "label": "消える音"
+          },
+          {
+            "id": "weak",
+            "label": "弱く発音される語"
+          },
+          {
+            "id": "vocab",
+            "label": "知らない単語"
+          }
+        ]
+      }
+    },
+    {
+      "week": 2,
+      "theme": "ビジネスの話題・質問表現",
+      "materials": "HBR IdeaCast、ビジネス系TED Talks",
+      "drill": {
+        "title": "質問文を拾って型に分類する",
+        "steps": [
+          "音声の中から質問文を見つけたら一時停止する",
+          "その質問がどの型か考えて、下のボタンでタップする",
+          "質問の型の例（フレーズ集）と見比べる"
+        ],
+        "showQuestionTypes": true,
+        "countersTitle": "拾った質問（タップで+1）",
+        "counters": [
+          {
+            "id": "direct",
+            "label": "直接の質問"
+          },
+          {
+            "id": "indirect",
+            "label": "遠回しな質問"
+          },
+          {
+            "id": "confirm",
+            "label": "確認の質問"
+          }
+        ]
+      }
+    },
+    {
+      "week": 3,
+      "theme": "自然な速さ・複数人の会話",
+      "materials": "複数ホストのビジネス系ポッドキャスト",
+      "drill": {
+        "title": "質問を英語1文で言い換える",
+        "steps": [
+          "質問が出たら一時停止する",
+          "「誰が・何を聞いているか」を英語1文で言い換える",
+          "例：So she's asking whether we should delay the launch."
+        ],
+        "showQuestionTypes": true,
+        "countersTitle": "言い換え（タップで+1）",
+        "counters": [
+          {
+            "id": "paraphrased",
+            "label": "言い換えできた"
+          },
+          {
+            "id": "missed",
+            "label": "分からなかった"
+          }
+        ]
+      }
+    },
+    {
+      "week": 4,
+      "theme": "返答まで含めた実戦",
+      "materials": "Week 3 と同様",
+      "drill": {
+        "title": "10秒以内に答えの1文目を組み立てる",
+        "steps": [
+          "質問を聞いたら一時停止する",
+          "10秒以内に、答えの最初の一文を頭の中で組み立てる",
+          "詰まったら立て直しフレーズ（🆘）を使う想定で言ってみる"
+        ],
+        "showQuestionTypes": true,
+        "countersTitle": "返答（タップで+1）",
+        "counters": [
+          {
+            "id": "answered",
+            "label": "10秒以内に組み立てた"
+          },
+          {
+            "id": "stuck",
+            "label": "詰まった"
+          }
+        ]
+      }
+    }
+  ],
+  "questionTypes": [
+    {
+      "id": "direct",
+      "label": "直接の質問",
+      "examples": [
+        "What's your take on…?",
+        "How would you approach…?"
+      ]
+    },
+    {
+      "id": "indirect",
+      "label": "遠回しな質問",
+      "examples": [
+        "I was wondering if…",
+        "Could you walk me through…?",
+        "Would it make sense to…?"
+      ]
+    },
+    {
+      "id": "confirm",
+      "label": "確認の質問",
+      "examples": [
+        "…, right?",
+        "So you're saying…?"
+      ]
+    }
+  ],
+  "recoveryPhrases": [
+    {
+      "en": "Just to make sure I understand — are you asking about X or Y?",
+      "ja": "確認させてください。XとYのどちらについての質問ですか？"
+    },
+    {
+      "en": "Could you rephrase that a bit? I want to get it right.",
+      "ja": "少し言い換えてもらえますか？正しく理解したいので。"
+    },
+    {
+      "en": "So what you're asking is… — is that correct?",
+      "ja": "つまり…ということですね？"
+    },
+    {
+      "en": "Let me check if I've got this right.",
+      "ja": "私の理解が合っているか確認させてください。"
+    }
+  ],
+  "measurement": {
+    "days": [
+      1,
+      30
+    ],
+    "intro": "通常メニューの前に、今の実力を記録します（10分ほど）。",
+    "items": [
+      {
+        "id": "dictation",
+        "label": "① 書き取りの正答率（%）",
+        "howto": "初めて聞く30秒の音声を書き取り、スクリプトで自己採点する。",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "id": "keypoints",
+        "label": "② 要点の数（個）",
+        "howto": "初めて聞く2分の音声を1回だけ聞き、書き出せた要点の数を数える。",
+        "unit": "個",
+        "min": 0,
+        "max": 50
+      }
+    ],
+    "meetingHowto": "③ 直近の会議で「聞き返した回数」「質問を取り違えた回数」を記録（記録タブからいつでも追加できます）。",
+    "targetNote": "目安：①が+15〜20ポイント、③の回数が減っていること",
+    "materials": {
+      "1": [
+        {
+          "label": "① 書き取り用（冒頭あいさつの直後から30秒）：What should you eat for a better night’s sleep?",
+          "pageUrl": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261022",
+          "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261022_6_minute_english_what_should_you_eat_for_a_better_nights_sleep_download.mp3",
+          "verified": true
+        },
+        {
+          "label": "② 要点用（任意の2分を1回だけ）：Why do we itch?",
+          "pageUrl": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260924",
+          "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/260924_6_minute_english_why_do_we_itch_download.mp3",
+          "verified": true
+        }
+      ],
+      "30": [
+        {
+          "label": "① 書き取り用（冒頭あいさつの直後から30秒）：Sharing the road with driverless cars",
+          "pageUrl": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260820",
+          "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/260820_6_minute_english_sharing_the_road_with_driverless_cars_download.mp3",
+          "verified": true
+        },
+        {
+          "label": "② 要点用（任意の2分を1回だけ）：Should we cycle more?",
+          "pageUrl": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260709",
+          "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/260709_6_minute_english_should_we_cycle_more_download.mp3",
+          "verified": true
+        }
+      ]
+    }
+  }
+}

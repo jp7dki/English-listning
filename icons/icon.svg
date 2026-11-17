@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 英語リスニング30日 アイコン（オリジナル）：青地に「30」と音の波 -->
+  <rect width="512" height="512" fill="#1f6feb"/>
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="22" opacity="0.9">
+    <path d="M150 150 a150 150 0 0 0 0 212" transform="translate(-30 0)"/>
+    <path d="M150 190 a100 100 0 0 0 0 132" transform="translate(-10 0)"/>
+    <path d="M362 150 a150 150 0 0 1 0 212" transform="translate(30 0)"/>
+    <path d="M362 190 a100 100 0 0 1 0 132" transform="translate(10 0)"/>
+  </g>
+  <text x="256" y="300" text-anchor="middle" font-family="Helvetica, Arial, sans-serif"
+        font-size="150" font-weight="800" fill="#ffffff">30</text>
+  <text x="256" y="372" text-anchor="middle" font-family="Helvetica, Arial, sans-serif"
+        font-size="40" font-weight="700" letter-spacing="6" fill="#cfe0ff">LISTEN</text>
+</svg>
