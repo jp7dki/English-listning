@@ -16,6 +16,8 @@ const Store = (() => {
       measurements: {},  // 測定結果 {"1": {dictation:60, keypoints:4, date:"…"}, "30": {…}}
       meetings: [],      // 会議記録 [{date:"…", askBack:2, misread:1}]
       player: {},        // 素材ごとの再生位置・A-B区間 {"<音声URL>": {pos:83.2, a:40, b:120}}
+      compose: {},       // 英作文の問題ごとの記録 {"c001": {box:1, due:"…", ok:1, mid:0, ng:0}}
+      composeLog: {},    // 英作文の日ごとの記録 {"2026-11-18": {new:5, rev:3, ok:6, mid:1, ng:1}}
       settings: { rate: 1.0 }
     };
   }

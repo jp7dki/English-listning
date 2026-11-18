@@ -195,6 +195,12 @@ function menuExtra(id, day, w) {
     if (!prev) return '';
     return `<button class="btn-small" data-action="play" data-day="${day - 1}" data-mode="review">▶ Day ${day - 1}：${esc(prev.title)}</button>`;
   }
+  if (id === 'compose') {
+    const n = Compose.remaining(day);
+    return n
+      ? `<button class="btn-small" data-action="compose" data-day="${day}">✎ 英作文を始める（${n}問）</button>`
+      : `<button class="btn-small" data-action="compose-practice" data-day="${day}">✎ 今日の分は終わり（苦手をおさらい）</button>`;
+  }
   if (id === 'extensive') {
     return `<button class="btn-small" data-action="play" data-day="${day}" data-mode="extensive">▶ 今日の素材を流し聞き</button>`;
   }
@@ -306,6 +312,8 @@ document.addEventListener('click', (e) => {
     case 'play': startMaterial(day, t.dataset.mode); break;
     case 'tally': addTally(day, t.dataset.id); break;
     case 'tally-undo': undoTally(day); break;
+    case 'compose': Compose.start(day, false); break;
+    case 'compose-practice': Compose.start(day, true); break;
     default:
       // 他の画面のボタン（screens.js などで処理）
       if ((typeof Screens !== 'undefined') && Screens.onAction) Screens.onAction(t, e);
@@ -327,6 +335,8 @@ async function init() {
       loadJson('data/plan.json'),
       loadJson('data/materials.json')
     ]);
+    // 英作文の問題（読み込めなくても、ほかの機能は使えるようにする）
+    Compose.setItems(await loadJson('data/compose.json').catch(() => []));
   } catch (e) {
     document.getElementById('view-today').innerHTML =
       `<div class="banner warn">データを読み込めませんでした。<br><small>${esc(e.message)}</small><br>

@@ -7,7 +7,7 @@
 // （上げないと、スマホに古いファイルが残ることがあります）
 // =============================================================
 
-const VERSION = 'v2';
+const VERSION = 'v3';
 const CACHE = 'elp-' + VERSION;
 
 const APP_FILES = [
@@ -16,10 +16,12 @@ const APP_FILES = [
   './css/style.css',
   './js/storage.js',
   './js/player.js',
+  './js/compose.js',
   './js/screens.js',
   './js/app.js',
   './data/plan.json',
   './data/materials.json',
+  './data/compose.json',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
