@@ -1,0 +1,1502 @@
+[
+ {
+  "id": "c001",
+  "week": 1,
+  "day": 1,
+  "ja": "では、始めましょう。今日の目的は2つあります。",
+  "en": "Let's get started. We have two goals for today.",
+  "alt": "Shall we begin? There are two things I'd like us to achieve today.",
+  "hint": "get started",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c002",
+  "week": 1,
+  "day": 1,
+  "ja": "まず、議題を簡単に確認させてください。",
+  "en": "First, let me quickly go over the agenda.",
+  "alt": "To start, I'll run through the agenda briefly.",
+  "hint": "go over",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c003",
+  "week": 1,
+  "day": 1,
+  "ja": "この会議は30分で終わらせたいと思います。",
+  "en": "I'd like to wrap this up in 30 minutes.",
+  "alt": "Let's aim to finish within 30 minutes.",
+  "hint": "wrap up",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c004",
+  "week": 1,
+  "day": 1,
+  "ja": "始める前に、何か質問はありますか？",
+  "en": "Before we start, does anyone have any questions?",
+  "alt": "Any questions before we dive in?",
+  "hint": "before we start",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c005",
+  "week": 1,
+  "day": 1,
+  "ja": "最初の議題に移りましょう。",
+  "en": "Let's move on to the first item.",
+  "alt": "Let's turn to the first topic on the agenda.",
+  "hint": "move on to",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c006",
+  "week": 1,
+  "day": 2,
+  "ja": "田中さん、進捗を簡単に共有してもらえますか？",
+  "en": "Tanaka-san, could you give us a quick update on your progress?",
+  "alt": "Tanaka-san, can you briefly share where things stand?",
+  "hint": "give an update",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c007",
+  "week": 1,
+  "day": 2,
+  "ja": "ありがとうございます。とても参考になりました。",
+  "en": "Thank you. That was really helpful.",
+  "alt": "Thanks, that's very useful.",
+  "hint": "helpful",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c008",
+  "week": 1,
+  "day": 2,
+  "ja": "ほかの方の意見も聞きたいです。",
+  "en": "I'd like to hear from others as well.",
+  "alt": "Let's hear some other views too.",
+  "hint": "hear from",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c009",
+  "week": 1,
+  "day": 2,
+  "ja": "まだ発言していない方はいかがですか？",
+  "en": "What about those who haven't spoken yet?",
+  "alt": "I'd love to hear from anyone who hasn't had a chance to speak.",
+  "hint": "haven't spoken",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c010",
+  "week": 1,
+  "day": 2,
+  "ja": "すみません、もう一度言っていただけますか？",
+  "en": "Sorry, could you say that again?",
+  "alt": "Sorry, I didn't catch that. Could you repeat it?",
+  "hint": "say that again",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c011",
+  "week": 1,
+  "day": 3,
+  "ja": "少しゆっくり話していただけますか？",
+  "en": "Could you speak a little more slowly?",
+  "alt": "Would you mind slowing down a bit?",
+  "hint": "slowly",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c012",
+  "week": 1,
+  "day": 3,
+  "ja": "その点はとても大事だと思います。",
+  "en": "I think that's a really important point.",
+  "alt": "That's a key point.",
+  "hint": "important point",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c013",
+  "week": 1,
+  "day": 3,
+  "ja": "時間が限られているので、先に進みましょう。",
+  "en": "Since we're short on time, let's move on.",
+  "alt": "We're running out of time, so let's keep going.",
+  "hint": "short on time",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c014",
+  "week": 1,
+  "day": 3,
+  "ja": "その話は別の機会にしましょう。",
+  "en": "Let's discuss that another time.",
+  "alt": "Let's take that offline.",
+  "hint": "another time",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c015",
+  "week": 1,
+  "day": 3,
+  "ja": "ここまでをまとめると、スケジュールについては合意できました。",
+  "en": "To sum up so far, we've agreed on the schedule.",
+  "alt": "So far, it sounds like we're aligned on the schedule.",
+  "hint": "sum up",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c016",
+  "week": 1,
+  "day": 4,
+  "ja": "次のステップを確認しましょう。",
+  "en": "Let's confirm the next steps.",
+  "alt": "Let's go over what happens next.",
+  "hint": "next steps",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c017",
+  "week": 1,
+  "day": 4,
+  "ja": "誰がこれを担当しますか？",
+  "en": "Who's going to take care of this?",
+  "alt": "Who'll own this?",
+  "hint": "take care of",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c018",
+  "week": 1,
+  "day": 4,
+  "ja": "金曜日までに資料を送ってもらえますか？",
+  "en": "Could you send me the materials by Friday?",
+  "alt": "Can you get the documents to me by Friday?",
+  "hint": "by Friday",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c019",
+  "week": 1,
+  "day": 4,
+  "ja": "来週、同じ時間にまた集まりましょう。",
+  "en": "Let's meet again at the same time next week.",
+  "alt": "Shall we regroup at the same time next week?",
+  "hint": "same time",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c020",
+  "week": 1,
+  "day": 4,
+  "ja": "今日はお時間をいただきありがとうございました。",
+  "en": "Thank you all for your time today.",
+  "alt": "Thanks, everyone, for making the time today.",
+  "hint": "for your time",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c021",
+  "week": 1,
+  "day": 5,
+  "ja": "画面は見えていますか？",
+  "en": "Can everyone see my screen?",
+  "alt": "Is my screen showing up for everyone?",
+  "hint": "see my screen",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c022",
+  "week": 1,
+  "day": 5,
+  "ja": "音声が途切れているようです。",
+  "en": "You seem to be breaking up.",
+  "alt": "I think your audio is cutting out.",
+  "hint": "breaking up",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c023",
+  "week": 1,
+  "day": 5,
+  "ja": "すみません、ミュートになっていました。",
+  "en": "Sorry, I was on mute.",
+  "alt": "Sorry, I was muted.",
+  "hint": "on mute",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c024",
+  "week": 1,
+  "day": 5,
+  "ja": "議事録は私が取ります。",
+  "en": "I'll take the minutes.",
+  "alt": "I'll take notes for today.",
+  "hint": "take the minutes",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c025",
+  "week": 1,
+  "day": 5,
+  "ja": "この件の背景を少し説明させてください。",
+  "en": "Let me give you some background on this.",
+  "alt": "Let me explain a bit of the context first.",
+  "hint": "background",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c026",
+  "week": 1,
+  "day": 6,
+  "ja": "結論から言うと、予定どおり進められます。",
+  "en": "The bottom line is that we can go ahead as planned.",
+  "alt": "In short, we're on track.",
+  "hint": "bottom line",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c027",
+  "week": 1,
+  "day": 6,
+  "ja": "主な課題は2つあります。",
+  "en": "There are two main issues.",
+  "alt": "We're facing two key challenges.",
+  "hint": "main issues",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c028",
+  "week": 1,
+  "day": 6,
+  "ja": "1つ目はコスト、2つ目は納期です。",
+  "en": "The first is cost, and the second is the deadline.",
+  "alt": "One is cost; the other is timing.",
+  "hint": "the first is",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c029",
+  "week": 1,
+  "day": 6,
+  "ja": "この数字を見てください。",
+  "en": "Please take a look at these numbers.",
+  "alt": "Let's look at these figures.",
+  "hint": "take a look",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c030",
+  "week": 1,
+  "day": 6,
+  "ja": "ご意見があれば、遠慮なくどうぞ。",
+  "en": "Please feel free to share your thoughts.",
+  "alt": "Don't hesitate to jump in with any comments.",
+  "hint": "feel free",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c031",
+  "week": 1,
+  "day": 7,
+  "ja": "ちょっと話を戻してもいいですか？",
+  "en": "Can I go back to something for a moment?",
+  "alt": "Can we circle back to an earlier point?",
+  "hint": "go back to",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c032",
+  "week": 1,
+  "day": 7,
+  "ja": "念のため、もう一度確認させてください。",
+  "en": "Just to be sure, let me double-check.",
+  "alt": "Let me confirm that once more, just in case.",
+  "hint": "double-check",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c033",
+  "week": 1,
+  "day": 7,
+  "ja": "これで今日の議題はすべてです。",
+  "en": "That covers everything on today's agenda.",
+  "alt": "That's all we have for today.",
+  "hint": "covers everything",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c034",
+  "week": 1,
+  "day": 7,
+  "ja": "最後に何かありますか？",
+  "en": "Is there anything else before we finish?",
+  "alt": "Any last points before we wrap up?",
+  "hint": "anything else",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c035",
+  "week": 1,
+  "day": 7,
+  "ja": "では、今日はここまでにしましょう。",
+  "en": "OK, let's leave it there for today.",
+  "alt": "Alright, I think we can end here.",
+  "hint": "leave it there",
+  "tag": "会議の基本"
+ },
+ {
+  "id": "c036",
+  "week": 2,
+  "day": 8,
+  "ja": "この案についてどう思いますか？",
+  "en": "What's your take on this proposal?",
+  "alt": "What do you think of this plan?",
+  "hint": "take on",
+  "tag": "直接の質問"
+ },
+ {
+  "id": "c037",
+  "week": 2,
+  "day": 8,
+  "ja": "あなたならこの問題にどう取り組みますか？",
+  "en": "How would you approach this problem?",
+  "alt": "What would you do about this issue?",
+  "hint": "approach",
+  "tag": "直接の質問"
+ },
+ {
+  "id": "c038",
+  "week": 2,
+  "day": 8,
+  "ja": "なぜその方法を選んだのですか？",
+  "en": "Why did you choose that approach?",
+  "alt": "What made you go with that method?",
+  "hint": "choose",
+  "tag": "直接の質問"
+ },
+ {
+  "id": "c039",
+  "week": 2,
+  "day": 8,
+  "ja": "一番のリスクは何だと思いますか？",
+  "en": "What do you see as the biggest risk?",
+  "alt": "What's the biggest risk, in your view?",
+  "hint": "see as",
+  "tag": "直接の質問"
+ },
+ {
+  "id": "c040",
+  "week": 2,
+  "day": 8,
+  "ja": "いつまでに決める必要がありますか？",
+  "en": "When do we need to decide by?",
+  "alt": "What's our deadline for making a decision?",
+  "hint": "decide by",
+  "tag": "直接の質問"
+ },
+ {
+  "id": "c041",
+  "week": 2,
+  "day": 9,
+  "ja": "予算はどのくらいありますか？",
+  "en": "How much budget do we have?",
+  "alt": "What does the budget look like?",
+  "hint": "budget",
+  "tag": "直接の質問"
+ },
+ {
+  "id": "c042",
+  "week": 2,
+  "day": 9,
+  "ja": "顧客の反応はどうでしたか？",
+  "en": "How did the customer react?",
+  "alt": "What was the client's response?",
+  "hint": "react",
+  "tag": "直接の質問"
+ },
+ {
+  "id": "c043",
+  "week": 2,
+  "day": 9,
+  "ja": "何が一番うまくいきましたか？",
+  "en": "What worked best?",
+  "alt": "What went particularly well?",
+  "hint": "worked",
+  "tag": "直接の質問"
+ },
+ {
+  "id": "c044",
+  "week": 2,
+  "day": 9,
+  "ja": "ほかに選択肢はありますか？",
+  "en": "Are there any other options?",
+  "alt": "What alternatives do we have?",
+  "hint": "options",
+  "tag": "直接の質問"
+ },
+ {
+  "id": "c045",
+  "week": 2,
+  "day": 9,
+  "ja": "この計画で一番難しいのはどこですか？",
+  "en": "What's the most challenging part of this plan?",
+  "alt": "Where do you expect the biggest difficulty?",
+  "hint": "challenging",
+  "tag": "直接の質問"
+ },
+ {
+  "id": "c046",
+  "week": 2,
+  "day": 10,
+  "ja": "優先順位はどう考えていますか？",
+  "en": "How are you thinking about priorities?",
+  "alt": "What should we prioritize, in your view?",
+  "hint": "priorities",
+  "tag": "直接の質問"
+ },
+ {
+  "id": "c047",
+  "week": 2,
+  "day": 10,
+  "ja": "それを実現するには何が必要ですか？",
+  "en": "What would it take to make that happen?",
+  "alt": "What do we need to make that work?",
+  "hint": "what would it take",
+  "tag": "直接の質問"
+ },
+ {
+  "id": "c048",
+  "week": 2,
+  "day": 10,
+  "ja": "この進め方でよいのか、気になっていたのですが。",
+  "en": "I was wondering if this approach makes sense.",
+  "alt": "I've been wondering whether we're going about this the right way.",
+  "hint": "I was wondering if",
+  "tag": "遠回しな質問"
+ },
+ {
+  "id": "c049",
+  "week": 2,
+  "day": 10,
+  "ja": "決定の経緯を説明していただけますか？",
+  "en": "Could you walk me through how the decision was made?",
+  "alt": "Would you mind explaining how we got to this decision?",
+  "hint": "walk me through",
+  "tag": "遠回しな質問"
+ },
+ {
+  "id": "c050",
+  "week": 2,
+  "day": 10,
+  "ja": "リリースを1週間遅らせるのはどうでしょう？",
+  "en": "Would it make sense to delay the release by a week?",
+  "alt": "What if we pushed the release back a week?",
+  "hint": "would it make sense",
+  "tag": "遠回しな質問"
+ },
+ {
+  "id": "c051",
+  "week": 2,
+  "day": 11,
+  "ja": "その数字の根拠を教えていただけると助かります。",
+  "en": "It would help if you could tell me where those numbers come from.",
+  "alt": "I'd appreciate it if you could explain the basis for those figures.",
+  "hint": "it would help if",
+  "tag": "遠回しな質問"
+ },
+ {
+  "id": "c052",
+  "week": 2,
+  "day": 11,
+  "ja": "もう少し詳しく聞かせていただけますか？",
+  "en": "Could you tell us a bit more about that?",
+  "alt": "Would you mind elaborating on that?",
+  "hint": "a bit more",
+  "tag": "遠回しな質問"
+ },
+ {
+  "id": "c053",
+  "week": 2,
+  "day": 11,
+  "ja": "別の見方もあるのではないかと思っているのですが。",
+  "en": "I'm curious whether there's another way to look at this.",
+  "alt": "I wonder if there's a different angle we could take.",
+  "hint": "I'm curious",
+  "tag": "遠回しな質問"
+ },
+ {
+  "id": "c054",
+  "week": 2,
+  "day": 11,
+  "ja": "スケジュールに余裕があるか、確認したいのですが。",
+  "en": "I'd like to check whether there's any flexibility in the schedule.",
+  "alt": "I wanted to ask if we have any room in the timeline.",
+  "hint": "flexibility",
+  "tag": "遠回しな質問"
+ },
+ {
+  "id": "c055",
+  "week": 2,
+  "day": 11,
+  "ja": "来週までに結果を共有していただくことは可能でしょうか？",
+  "en": "Would it be possible to share the results by next week?",
+  "alt": "Is there any chance you could send the results by next week?",
+  "hint": "would it be possible",
+  "tag": "遠回しな質問"
+ },
+ {
+  "id": "c056",
+  "week": 2,
+  "day": 12,
+  "ja": "チームとしての意見を聞かせてもらえるとうれしいです。",
+  "en": "I'd love to hear the team's perspective on this.",
+  "alt": "It'd be great to get the team's view.",
+  "hint": "perspective",
+  "tag": "遠回しな質問"
+ },
+ {
+  "id": "c057",
+  "week": 2,
+  "day": 12,
+  "ja": "この件、ほかの部署にも共有した方がよいでしょうか？",
+  "en": "Do you think we should loop in other departments on this?",
+  "alt": "Should we involve other teams in this?",
+  "hint": "loop in",
+  "tag": "遠回しな質問"
+ },
+ {
+  "id": "c058",
+  "week": 2,
+  "day": 12,
+  "ja": "何か懸念があれば、聞かせてください。",
+  "en": "If you have any concerns, I'd like to hear them.",
+  "alt": "Let me know if anything worries you about this.",
+  "hint": "concerns",
+  "tag": "遠回しな質問"
+ },
+ {
+  "id": "c059",
+  "week": 2,
+  "day": 12,
+  "ja": "その前提が正しいのか、少し気になっています。",
+  "en": "I'm a little unsure whether that assumption holds.",
+  "alt": "I wonder if that assumption is still valid.",
+  "hint": "assumption",
+  "tag": "遠回しな質問"
+ },
+ {
+  "id": "c060",
+  "week": 2,
+  "day": 12,
+  "ja": "つまり、予算を増やす必要があるということですね？",
+  "en": "So you're saying we need a bigger budget?",
+  "alt": "So the point is we need more budget, right?",
+  "hint": "so you're saying",
+  "tag": "確認の質問"
+ },
+ {
+  "id": "c061",
+  "week": 2,
+  "day": 13,
+  "ja": "締め切りは金曜日ですよね？",
+  "en": "The deadline is Friday, right?",
+  "alt": "We're still looking at Friday for the deadline, correct?",
+  "hint": "right",
+  "tag": "確認の質問"
+ },
+ {
+  "id": "c062",
+  "week": 2,
+  "day": 13,
+  "ja": "全員この方針で合意ということでよいですか？",
+  "en": "Are we all agreed on this direction?",
+  "alt": "Is everyone on board with this approach?",
+  "hint": "on board",
+  "tag": "確認の質問"
+ },
+ {
+  "id": "c063",
+  "week": 2,
+  "day": 13,
+  "ja": "私の理解が正しいか確認させてください。",
+  "en": "Let me make sure I understand correctly.",
+  "alt": "Let me check that I've got this right.",
+  "hint": "understand correctly",
+  "tag": "確認の質問"
+ },
+ {
+  "id": "c064",
+  "week": 2,
+  "day": 13,
+  "ja": "次回までに私が見積もりを出す、ということで合っていますか？",
+  "en": "So I'll prepare the estimate before the next meeting — is that correct?",
+  "alt": "Just to confirm, I'm sending the estimate by our next meeting?",
+  "hint": "is that correct",
+  "tag": "確認の質問"
+ },
+ {
+  "id": "c065",
+  "week": 2,
+  "day": 13,
+  "ja": "それは今月の話ですか、来月の話ですか？",
+  "en": "Are we talking about this month or next month?",
+  "alt": "Is that for this month or next?",
+  "hint": "are we talking about",
+  "tag": "確認の質問"
+ },
+ {
+  "id": "c066",
+  "week": 2,
+  "day": 14,
+  "ja": "問題は品質ではなく、スピードということですね？",
+  "en": "So the issue is speed, not quality?",
+  "alt": "So it's more about speed than quality?",
+  "hint": "not",
+  "tag": "確認の質問"
+ },
+ {
+  "id": "c067",
+  "week": 2,
+  "day": 14,
+  "ja": "この数字は税込みですよね？",
+  "en": "These figures include tax, right?",
+  "alt": "Is that number including tax?",
+  "hint": "include",
+  "tag": "確認の質問"
+ },
+ {
+  "id": "c068",
+  "week": 2,
+  "day": 14,
+  "ja": "つまり、A案を推しているということですか？",
+  "en": "So you're recommending Plan A?",
+  "alt": "Are you saying you'd go with Plan A?",
+  "hint": "recommending",
+  "tag": "確認の質問"
+ },
+ {
+  "id": "c069",
+  "week": 2,
+  "day": 14,
+  "ja": "確認ですが、承認はまだですよね？",
+  "en": "Just to confirm, we haven't got approval yet, have we?",
+  "alt": "Correct me if I'm wrong, but it's not approved yet?",
+  "hint": "have we",
+  "tag": "確認の質問"
+ },
+ {
+  "id": "c070",
+  "week": 2,
+  "day": 14,
+  "ja": "要するに、もう少し時間が欲しいということですね？",
+  "en": "In other words, you need a bit more time?",
+  "alt": "So basically, you're asking for more time?",
+  "hint": "in other words",
+  "tag": "確認の質問"
+ },
+ {
+  "id": "c071",
+  "week": 3,
+  "day": 15,
+  "ja": "つまり彼女は、発売を遅らせるべきかと聞いているんですね。",
+  "en": "So she's asking whether we should delay the launch.",
+  "alt": "So her question is whether to push back the launch.",
+  "hint": "asking whether",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c072",
+  "week": 3,
+  "day": 15,
+  "ja": "彼は、なぜコストが上がったのかを知りたいんですね。",
+  "en": "So he wants to know why costs went up.",
+  "alt": "So his question is about why costs increased.",
+  "hint": "wants to know why",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c073",
+  "week": 3,
+  "day": 15,
+  "ja": "つまり、誰が最終決定をするのかという質問ですね。",
+  "en": "So the question is who makes the final decision.",
+  "alt": "So you're asking who has the final say.",
+  "hint": "final say",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c074",
+  "week": 3,
+  "day": 15,
+  "ja": "要するに、この計画に現実味があるかということですね。",
+  "en": "Basically, you're asking whether this plan is realistic.",
+  "alt": "So the question is whether the plan is feasible.",
+  "hint": "realistic",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c075",
+  "week": 3,
+  "day": 15,
+  "ja": "私の理解では、予算か期間のどちらかを削る必要があるということですね。",
+  "en": "If I understand correctly, we need to cut either the budget or the timeline.",
+  "alt": "As I understand it, something has to give — the budget or the schedule.",
+  "hint": "if I understand correctly",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c076",
+  "week": 3,
+  "day": 16,
+  "ja": "お話を聞く限り、一番の不安はサポート体制ですね。",
+  "en": "What I'm hearing is that your main concern is support.",
+  "alt": "It sounds like support is what worries you most.",
+  "hint": "what I'm hearing",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c077",
+  "week": 3,
+  "day": 16,
+  "ja": "彼の質問を言い換えると、他社と比べてどうか、ということです。",
+  "en": "To rephrase his question, he's asking how we compare to our competitors.",
+  "alt": "Put simply, he wants to know how we stack up against competitors.",
+  "hint": "rephrase",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c078",
+  "week": 3,
+  "day": 16,
+  "ja": "つまり、いつ結果が出るのかを知りたいんですね。",
+  "en": "So you'd like to know when we'll see results.",
+  "alt": "So the question is about the timing of the results.",
+  "hint": "when we'll see",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c079",
+  "week": 3,
+  "day": 16,
+  "ja": "質問は2つあると理解しました。費用と期間ですね。",
+  "en": "I understand there are two questions: cost and timing.",
+  "alt": "So there are two parts to your question — cost and schedule.",
+  "hint": "two questions",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c080",
+  "week": 3,
+  "day": 16,
+  "ja": "1つ目の質問から答えてもいいですか？",
+  "en": "Can I start with the first question?",
+  "alt": "Let me take the first question first.",
+  "hint": "start with",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c081",
+  "week": 3,
+  "day": 17,
+  "ja": "確認させてください。これは技術の質問ですか、それとも予算の質問ですか？",
+  "en": "Just to clarify, is this a technical question or a budget question?",
+  "alt": "To make sure I answer the right thing — is this about the tech or the budget?",
+  "hint": "just to clarify",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c082",
+  "week": 3,
+  "day": 17,
+  "ja": "XとYのどちらについての質問ですか？",
+  "en": "Are you asking about X or Y?",
+  "alt": "Is your question about X or about Y?",
+  "hint": "asking about",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c083",
+  "week": 3,
+  "day": 17,
+  "ja": "少し言い換えていただけますか？正しく理解したいので。",
+  "en": "Could you rephrase that a bit? I want to get it right.",
+  "alt": "Would you mind putting that another way? I want to make sure I understand.",
+  "hint": "rephrase",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c084",
+  "week": 3,
+  "day": 17,
+  "ja": "つまり、彼女は賛成ではないということですね。",
+  "en": "So she's not in favor of it.",
+  "alt": "So it sounds like she has some reservations.",
+  "hint": "in favor of",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c085",
+  "week": 3,
+  "day": 17,
+  "ja": "彼らが本当に知りたいのは、私たちが期限を守れるかどうかです。",
+  "en": "What they really want to know is whether we can meet the deadline.",
+  "alt": "Their real question is whether we'll hit the deadline.",
+  "hint": "meet the deadline",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c086",
+  "week": 3,
+  "day": 18,
+  "ja": "つまり、新しい人を採用すべきかということですね？",
+  "en": "So you're asking if we should hire someone new?",
+  "alt": "So the question is whether to bring in a new hire?",
+  "hint": "hire",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c087",
+  "week": 3,
+  "day": 18,
+  "ja": "今の話をまとめると、まず小さく試すということですね。",
+  "en": "To sum up, we'll start with a small pilot.",
+  "alt": "So the takeaway is to test it on a small scale first.",
+  "hint": "pilot",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c088",
+  "week": 3,
+  "day": 18,
+  "ja": "つまり、あなたの提案は在庫を減らすことですね。",
+  "en": "So your suggestion is to reduce inventory.",
+  "alt": "So you're proposing we cut back on stock.",
+  "hint": "suggestion",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c089",
+  "week": 3,
+  "day": 18,
+  "ja": "彼の意見は、今は投資する時期ではない、ということですね。",
+  "en": "His point is that now isn't the time to invest.",
+  "alt": "He's saying it's not the right time to invest.",
+  "hint": "his point is",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c090",
+  "week": 3,
+  "day": 18,
+  "ja": "ちょっと待ってください。今の質問を整理させてください。",
+  "en": "Hold on, let me make sure I've got the question straight.",
+  "alt": "Wait a moment — let me unpack that question.",
+  "hint": "straight",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c091",
+  "week": 3,
+  "day": 19,
+  "ja": "彼女が言いたいのは、データが足りないということだと思います。",
+  "en": "I think what she means is that we don't have enough data.",
+  "alt": "I believe her point is that the data is insufficient.",
+  "hint": "what she means",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c092",
+  "week": 3,
+  "day": 19,
+  "ja": "念のため、私の言葉で言い直しますね。",
+  "en": "Just to be safe, let me put it in my own words.",
+  "alt": "Let me restate that in my own words to make sure.",
+  "hint": "in my own words",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c093",
+  "week": 3,
+  "day": 19,
+  "ja": "つまり、期限を延ばしてほしいということですか？",
+  "en": "Are you asking us to extend the deadline?",
+  "alt": "So you'd like us to push back the deadline?",
+  "hint": "extend",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c094",
+  "week": 3,
+  "day": 19,
+  "ja": "その質問は、どの部署が費用を負担するかということですね。",
+  "en": "So the question is which department will cover the cost.",
+  "alt": "You're asking who's going to pay for this, right?",
+  "hint": "cover the cost",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c095",
+  "week": 3,
+  "day": 19,
+  "ja": "つまり、今のやり方を続けるか、変えるかということですね。",
+  "en": "So the question is whether we should stick with the current approach or change it.",
+  "alt": "So you're asking if we keep doing it this way or switch.",
+  "hint": "stick with",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c096",
+  "week": 3,
+  "day": 20,
+  "ja": "彼の懸念は、顧客が離れてしまうことですね。",
+  "en": "His concern is that we might lose customers.",
+  "alt": "He's worried about losing customers.",
+  "hint": "concern",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c097",
+  "week": 3,
+  "day": 20,
+  "ja": "要点は、品質を落とさずにコストを下げたいということですね。",
+  "en": "The key point is that you want to cut costs without lowering quality.",
+  "alt": "So you want lower costs but the same quality.",
+  "hint": "without",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c098",
+  "week": 3,
+  "day": 20,
+  "ja": "その質問の意図を教えていただけますか？",
+  "en": "Could you tell me what's behind that question?",
+  "alt": "May I ask what prompted that question?",
+  "hint": "behind",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c099",
+  "week": 3,
+  "day": 20,
+  "ja": "ここで言う「成功」は、売上のことですか？",
+  "en": "When you say \"success,\" do you mean sales?",
+  "alt": "By \"success,\" are you referring to revenue?",
+  "hint": "when you say",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c100",
+  "week": 3,
+  "day": 20,
+  "ja": "つまり、私に判断してほしいということですね？",
+  "en": "So you'd like me to make the call?",
+  "alt": "So you're asking me to decide?",
+  "hint": "make the call",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c101",
+  "week": 3,
+  "day": 21,
+  "ja": "話が少しずれてきたので、元の質問に戻りましょう。",
+  "en": "We're drifting a bit, so let's get back to the original question.",
+  "alt": "Let's bring it back to the question we started with.",
+  "hint": "get back to",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c102",
+  "week": 3,
+  "day": 21,
+  "ja": "言い換えると、優先順位を変えたいということですね。",
+  "en": "In other words, you'd like to change the priorities.",
+  "alt": "Put another way, you want to reprioritize.",
+  "hint": "in other words",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c103",
+  "week": 3,
+  "day": 21,
+  "ja": "今の議論の論点は2つです。",
+  "en": "This discussion comes down to two points.",
+  "alt": "There are two key issues in this discussion.",
+  "hint": "comes down to",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c104",
+  "week": 3,
+  "day": 21,
+  "ja": "その点について、二人の意見は違うようですね。",
+  "en": "It seems the two of you see this point differently.",
+  "alt": "It sounds like you have different views on this.",
+  "hint": "see ... differently",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c105",
+  "week": 3,
+  "day": 21,
+  "ja": "整理すると、まだ決まっていないのは担当者だけですね。",
+  "en": "To recap, the only thing still undecided is who's in charge.",
+  "alt": "So the only open question is who owns this.",
+  "hint": "to recap",
+  "tag": "言い換え・確認"
+ },
+ {
+  "id": "c106",
+  "week": 4,
+  "day": 22,
+  "ja": "良い質問ですね。結論から言うと、賛成です。",
+  "en": "Good question. In short, I agree.",
+  "alt": "That's a great question. The short answer is yes.",
+  "hint": "in short",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c107",
+  "week": 4,
+  "day": 22,
+  "ja": "結論から言うと、今は難しいと思います。",
+  "en": "The short answer is that it's difficult right now.",
+  "alt": "To be honest, I don't think it's feasible at the moment.",
+  "hint": "short answer",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c108",
+  "week": 4,
+  "day": 22,
+  "ja": "理由は2つあります。",
+  "en": "There are two reasons.",
+  "alt": "I have two reasons for that.",
+  "hint": "two reasons",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c109",
+  "week": 4,
+  "day": 22,
+  "ja": "一言で言えば、タイミングの問題です。",
+  "en": "In a word, it's a matter of timing.",
+  "alt": "Simply put, it's about timing.",
+  "hint": "in a word",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c110",
+  "week": 4,
+  "day": 22,
+  "ja": "それは状況によります。",
+  "en": "It depends on the situation.",
+  "alt": "That depends on a few factors.",
+  "hint": "depends on",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c111",
+  "week": 4,
+  "day": 23,
+  "ja": "その点は確認して、後でお知らせします。",
+  "en": "Let me check on that and get back to you.",
+  "alt": "I'll look into it and follow up with you.",
+  "hint": "get back to you",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c112",
+  "week": 4,
+  "day": 23,
+  "ja": "今すぐはお答えできませんが、明日までに回答します。",
+  "en": "I can't answer that right now, but I'll get back to you by tomorrow.",
+  "alt": "I don't have that answer on hand, but I'll follow up by tomorrow.",
+  "hint": "by tomorrow",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c113",
+  "week": 4,
+  "day": 23,
+  "ja": "少し考えさせてください。",
+  "en": "Let me think about that for a moment.",
+  "alt": "Give me a second to think.",
+  "hint": "think about",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c114",
+  "week": 4,
+  "day": 23,
+  "ja": "おっしゃることはわかりますが、少し違う見方をしています。",
+  "en": "I see your point, but I see it a bit differently.",
+  "alt": "I understand where you're coming from, but I have a slightly different view.",
+  "hint": "see your point",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c115",
+  "week": 4,
+  "day": 23,
+  "ja": "部分的には賛成です。",
+  "en": "I partly agree.",
+  "alt": "I agree up to a point.",
+  "hint": "partly",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c116",
+  "week": 4,
+  "day": 24,
+  "ja": "その点はおっしゃる通りです。",
+  "en": "You're absolutely right about that.",
+  "alt": "That's a fair point.",
+  "hint": "right about",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c117",
+  "week": 4,
+  "day": 24,
+  "ja": "懸念もありますが、試す価値はあると思います。",
+  "en": "I have some concerns, but I think it's worth trying.",
+  "alt": "There are risks, but it's worth a shot.",
+  "hint": "worth trying",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c118",
+  "week": 4,
+  "day": 24,
+  "ja": "私の経験では、小さく始めた方がうまくいきます。",
+  "en": "In my experience, starting small works better.",
+  "alt": "From what I've seen, it's better to start small.",
+  "hint": "in my experience",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c119",
+  "week": 4,
+  "day": 24,
+  "ja": "具体例を挙げると、先月の案件がそうです。",
+  "en": "To give you a concrete example, last month's project is a case in point.",
+  "alt": "For example, take last month's project.",
+  "hint": "concrete example",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c120",
+  "week": 4,
+  "day": 24,
+  "ja": "データを見る限り、需要は伸びています。",
+  "en": "Based on the data, demand is growing.",
+  "alt": "The numbers suggest demand is increasing.",
+  "hint": "based on",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c121",
+  "week": 4,
+  "day": 25,
+  "ja": "私の提案は、まず日本市場で試すことです。",
+  "en": "My suggestion is to test it in Japan first.",
+  "alt": "I'd propose we pilot it in the Japanese market first.",
+  "hint": "suggestion",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c122",
+  "week": 4,
+  "day": 25,
+  "ja": "その質問には、2つの観点からお答えします。",
+  "en": "I'll answer that from two angles.",
+  "alt": "Let me address that from two perspectives.",
+  "hint": "angles",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c123",
+  "week": 4,
+  "day": 25,
+  "ja": "まず事実を、それから私の意見をお話しします。",
+  "en": "Let me start with the facts, and then I'll share my opinion.",
+  "alt": "First the facts, then my view.",
+  "hint": "start with",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c124",
+  "week": 4,
+  "day": 25,
+  "ja": "それは私の担当外なので、佐藤さんにお願いしてもいいですか？",
+  "en": "That's outside my area, so could I hand that over to Sato-san?",
+  "alt": "That's not really my area — Sato-san, could you take that one?",
+  "hint": "hand over",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c125",
+  "week": 4,
+  "day": 25,
+  "ja": "ここは一度、皆さんの意見を聞いてみましょう。",
+  "en": "Let's hear what everyone thinks about this.",
+  "alt": "Let's go around the room on this.",
+  "hint": "go around the room",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c126",
+  "week": 4,
+  "day": 26,
+  "ja": "時間の都合で、お一人1分でお願いします。",
+  "en": "Because of time, please keep it to one minute each.",
+  "alt": "We're tight on time, so one minute each, please.",
+  "hint": "keep it to",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c127",
+  "week": 4,
+  "day": 26,
+  "ja": "良い議論ですが、そろそろ結論を出しましょう。",
+  "en": "This is a great discussion, but let's start moving toward a decision.",
+  "alt": "Good discussion — let's try to land on a decision.",
+  "hint": "move toward",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c128",
+  "week": 4,
+  "day": 26,
+  "ja": "その件は今日の議題の範囲外なので、別途話しましょう。",
+  "en": "That's outside the scope of today's agenda, so let's discuss it separately.",
+  "alt": "That's a bit off-topic for today; let's set up a separate meeting.",
+  "hint": "outside the scope",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c129",
+  "week": 4,
+  "day": 26,
+  "ja": "では、意見が分かれている点を整理しましょう。",
+  "en": "Let's clarify where we disagree.",
+  "alt": "Let's lay out where opinions differ.",
+  "hint": "where we disagree",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c130",
+  "week": 4,
+  "day": 26,
+  "ja": "両方の案の長所と短所を比べてみましょう。",
+  "en": "Let's compare the pros and cons of both options.",
+  "alt": "Let's weigh up the two options.",
+  "hint": "pros and cons",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c131",
+  "week": 4,
+  "day": 27,
+  "ja": "決をとりましょう。A案に賛成の人は？",
+  "en": "Let's take a vote. Who's in favor of Plan A?",
+  "alt": "Let's vote — hands up for Plan A?",
+  "hint": "take a vote",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c132",
+  "week": 4,
+  "day": 27,
+  "ja": "反対意見も歓迎します。",
+  "en": "Opposing views are welcome too.",
+  "alt": "I'd welcome any different opinions.",
+  "hint": "welcome",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c133",
+  "week": 4,
+  "day": 27,
+  "ja": "今の点について、山田さんはどう思いますか？",
+  "en": "Yamada-san, what are your thoughts on that point?",
+  "alt": "Yamada-san, how do you see this?",
+  "hint": "your thoughts",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c134",
+  "week": 4,
+  "day": 27,
+  "ja": "ちょっと割り込んでもいいですか？",
+  "en": "Sorry, may I jump in for a second?",
+  "alt": "Can I just add something here?",
+  "hint": "jump in",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c135",
+  "week": 4,
+  "day": 27,
+  "ja": "話の途中ですみませんが、時間になってしまいました。",
+  "en": "Sorry to interrupt, but we're out of time.",
+  "alt": "I hate to cut you off, but we need to stop here.",
+  "hint": "interrupt",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c136",
+  "week": 4,
+  "day": 28,
+  "ja": "今の意見を踏まえて、計画を修正します。",
+  "en": "Based on that feedback, I'll revise the plan.",
+  "alt": "I'll update the plan to reflect what we've discussed.",
+  "hint": "revise",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c137",
+  "week": 4,
+  "day": 28,
+  "ja": "では、A案で進めるということでよろしいですね。",
+  "en": "So we'll go ahead with Plan A — is everyone OK with that?",
+  "alt": "It sounds like we're going with Plan A. Any objections?",
+  "hint": "go ahead with",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c138",
+  "week": 4,
+  "day": 28,
+  "ja": "最終的な判断は来週に持ち越しましょう。",
+  "en": "Let's push the final decision to next week.",
+  "alt": "Let's hold off on the final call until next week.",
+  "hint": "push ... to",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c139",
+  "week": 4,
+  "day": 28,
+  "ja": "合意できたことと、まだ残っていることを確認します。",
+  "en": "Let me go over what we've agreed on and what's still open.",
+  "alt": "Let's recap what's decided and what's pending.",
+  "hint": "still open",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c140",
+  "week": 4,
+  "day": 28,
+  "ja": "これについては、私が責任を持って進めます。",
+  "en": "I'll take ownership of this.",
+  "alt": "I'll take responsibility for moving this forward.",
+  "hint": "take ownership",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c141",
+  "week": 4,
+  "day": 29,
+  "ja": "何か見落としている点はありませんか？",
+  "en": "Is there anything we're missing?",
+  "alt": "Have we overlooked anything?",
+  "hint": "missing",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c142",
+  "week": 4,
+  "day": 29,
+  "ja": "言いにくいのですが、このままでは期限に間に合いません。",
+  "en": "I hate to say it, but at this rate we won't make the deadline.",
+  "alt": "To be frank, we're not going to hit the deadline at this pace.",
+  "hint": "at this rate",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c143",
+  "week": 4,
+  "day": 29,
+  "ja": "代わりに、こういう方法はどうでしょう？",
+  "en": "As an alternative, how about this approach?",
+  "alt": "What if we tried this instead?",
+  "hint": "alternative",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c144",
+  "week": 4,
+  "day": 29,
+  "ja": "その案に反対というより、タイミングが心配なんです。",
+  "en": "It's not that I'm against the idea; I'm just worried about the timing.",
+  "alt": "I'm not opposed to it — it's the timing that concerns me.",
+  "hint": "it's not that",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c145",
+  "week": 4,
+  "day": 29,
+  "ja": "どちらの意見にも一理あると思います。",
+  "en": "I think both sides have a point.",
+  "alt": "There's merit in both views.",
+  "hint": "have a point",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c146",
+  "week": 4,
+  "day": 30,
+  "ja": "では、私から最初の質問をさせてください。",
+  "en": "Let me kick things off with a question.",
+  "alt": "I'll start us off with a question.",
+  "hint": "kick off",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c147",
+  "week": 4,
+  "day": 30,
+  "ja": "とても良い質問なので、皆さんにも考えてほしいです。",
+  "en": "That's a great question, and I'd like everyone to think about it.",
+  "alt": "Great question — let's open that up to the group.",
+  "hint": "open up",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c148",
+  "week": 4,
+  "day": 30,
+  "ja": "今日決めるべきことは1つだけです。",
+  "en": "There's only one thing we need to decide today.",
+  "alt": "We just need to make one decision today.",
+  "hint": "decide",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c149",
+  "week": 4,
+  "day": 30,
+  "ja": "全員の意見が聞けてよかったです。",
+  "en": "It was great to hear from everyone.",
+  "alt": "I'm glad we heard everyone's views.",
+  "hint": "hear from everyone",
+  "tag": "答える・進行する"
+ },
+ {
+  "id": "c150",
+  "week": 4,
+  "day": 30,
+  "ja": "では、来週までに各自のタスクをお願いします。",
+  "en": "So please follow up on your action items by next week.",
+  "alt": "Let's each take care of our action items before next week.",
+  "hint": "action items",
+  "tag": "答える・進行する"
+ }
+]

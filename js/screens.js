@@ -33,6 +33,11 @@ Screens.phrases = (el) => {
   for (const q of App.plan.questionTypes) {
     html += `<h3 class="sub">${esc(q.label)}</h3><ul class="phrases">${q.examples.map((x) => phraseHtml(x)).join('')}</ul>`;
   }
+  // 英作文で苦手な文（×が多いもの）
+  const weak = Compose.weakItems(10);
+  if (weak.length) {
+    html += `<h2 class="sec">✎ 英作文で苦手な文</h2><ul class="phrases">${weak.map((x) => phraseHtml(x.en, x.ja)).join('')}</ul>`;
+  }
   html += `<h2 class="sec">週ごとの練習</h2>`;
   for (const w of App.plan.weeks) {
     html += `<details class="card wk"><summary><b>Week ${w.week}</b>：${esc(w.theme)}</summary>
@@ -229,6 +234,7 @@ Screens.log = (el) => {
   html += `</div>`;
 
   // タップ記録の集計（Week 1 の「聞こえなかった原因」など）
+  html += composeLogHtml();
   html += `<h2 class="sec">練習のタップ記録</h2>`;
   for (const w of App.plan.weeks) {
     if (!w.drill.counters) continue;
@@ -252,6 +258,33 @@ Screens.log = (el) => {
   }
   el.innerHTML = html;
 };
+
+// 英作文の記録（取り組んだ数・直近7日の○△×・苦手な文）
+function composeLogHtml() {
+  const s = Store.get();
+  const all = Compose.all();
+  if (!all.length) return '';
+  const recs = Object.values(s.compose);
+  const learned = recs.filter((r) => r.box >= 3).length;
+  let html = `<h2 class="sec">英作文</h2><div class="card">
+    <div class="stat-row"><div><b>${recs.length}</b><span>取り組んだ問題 / ${all.length}</span></div>
+    <div><b>${learned}</b><span>定着（○が3回以上続いた）</span></div></div>`;
+  const days = [];
+  for (let i = 6; i >= 0; i--) days.push(DateUtil.addDays(DateUtil.today(), -i));
+  html += `<table class="cmp mt"><thead><tr><th>日付</th><th>○</th><th>△</th><th>×</th></tr></thead><tbody>`;
+  for (const d of days) {
+    const l = s.composeLog[d];
+    html += `<tr><td>${esc(DateUtil.label(d))}</td><td>${l ? l.ok : '—'}</td><td>${l ? l.mid : '—'}</td><td>${l ? l.ng : '—'}</td></tr>`;
+  }
+  html += `</tbody></table>`;
+  const weak = Compose.weakItems(10);
+  if (weak.length) {
+    html += `<div class="card-label mt">苦手な文（×が多い順）</div><ul class="weak">`;
+    for (const x of weak) html += `<li><div>${esc(x.ja)}</div><div lang="en" class="meta">${esc(x.en)}</div></li>`;
+    html += `</ul>`;
+  }
+  return html + `</div>`;
+}
 
 // 実際の日付のカレンダー（開始日の週から今日まで。精聴をした日に Day 番号）
 function calendarHtml() {

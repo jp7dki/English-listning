@@ -23,9 +23,17 @@
       "desc": "前日の精聴素材を聞き直す"
     },
     {
+      "id": "compose",
+      "label": "帰り①：英作文",
+      "minutes": 10,
+      "required": false,
+      "optional": true,
+      "desc": "日本語を見て、10秒で英語を頭の中で作る（口パク）→ 答えを見て ○△× で自己採点"
+    },
+    {
       "id": "extensive",
-      "label": "帰り：多聴",
-      "minutes": 60,
+      "label": "帰り②：多聴",
+      "minutes": 50,
       "required": false,
       "optional": true,
       "desc": "当日の素材を流し聞き → 好きなポッドキャストを1.0倍速で。止めずに聞き流す"
@@ -262,6 +270,24 @@
           "verified": true
         }
       ]
+    }
+  },
+  "compose": {
+    "newPerDay": 5,
+    "reviewPerDay": 5,
+    "thinkSeconds": 10,
+    "intervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ],
+    "howto": "日本語を見たら、10秒以内に英語を頭の中で組み立てて口パクで言う。「答えを見る」で確認し、🔊のお手本に重ねて口パク。最後に自分で ○△× をつける。",
+    "ratingHelp": {
+      "ok": "言えた",
+      "mid": "一部だけ",
+      "ng": "出てこない"
     }
   }
 }
